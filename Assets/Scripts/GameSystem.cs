@@ -8,12 +8,14 @@ public class GameSystem : MonoBehaviour {
 	public void Select1 () {
 		SceneManager.LoadScene("Scenes/test");
 	}
-	
 	public void Select2 () {
 		SceneManager.LoadScene("Scenes/Vuforia-3-VideoPlayback");
 	}
-
 	public void Select3 () {
+		SceneManager.LoadScene("Scenes/test3");
+	}
+	public void Back () {
 		SceneManager.LoadScene("Scenes/main");
 	}
+
 }
